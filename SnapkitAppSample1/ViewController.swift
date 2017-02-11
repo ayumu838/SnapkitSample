@@ -14,13 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let label = UILabel()
+        label.backgroundColor = UIColor.brown
+        self.view.addSubview(label)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        let label = UILabel()
-        label.backgroundColor = UIColor.brown
-        self.view.addSubview(label)
     }
 
 

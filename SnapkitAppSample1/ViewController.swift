@@ -17,6 +17,11 @@ class ViewController: UIViewController {
         let label = UILabel()
         label.backgroundColor = UIColor.brown
         self.view.addSubview(label)
+        label.snp.makeConstraints{(make) -> Void in
+            make.width.equalTo(30)
+            make.height.equalTo(30)
+            make.center.equalTo(self.view)
+        }
     }
 
     override func didReceiveMemoryWarning() {

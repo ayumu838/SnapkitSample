@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Snapkit
 
 class ViewController: UIViewController {
 

@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         label.backgroundColor = UIColor.brown
         self.view.addSubview(label)
         label.snp.makeConstraints{(make) -> Void in
-            make.width.equalTo(30)
-            make.height.equalTo(30)
+            make.width.equalTo(self.view.frame.width / 4)
+            make.height.equalTo(self.view.frame.height / 3)
             make.center.equalTo(self.view)
         }
     }

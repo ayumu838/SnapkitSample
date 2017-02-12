@@ -17,7 +17,8 @@ class ViewController: UIViewController {
         let textField = UITextField()
         self.view.addSubview(textField)
         
-        
+        textField.snp.makeConstraints{(make) -> Void in
+        }
     }
 
     override func didReceiveMemoryWarning() {
